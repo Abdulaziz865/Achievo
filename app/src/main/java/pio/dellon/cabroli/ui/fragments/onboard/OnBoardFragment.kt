@@ -27,7 +27,7 @@ class OnBoardFragment : Fragment(R.layout.fragment_on_board) {
     private fun setupListeners() {
         binding.btnStart.setOnClickListener {
             PreferenceHelper.isStartApp = true
-            findNavController().navigate(R.id.action_onBoardFragment_to_homeFragment)
+            findNavController().navigate(R.id.action_onBoardFragment_to_homeFragment    )
         }
     }
 
